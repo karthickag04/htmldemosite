@@ -1,0 +1,31 @@
+body{
+    background-image: url("/images/1.jpg");
+}
+
+.toptitlecontainer{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(229, 229, 234);
+}
+.toptitlemenu{
+    display: flex; gap: 10px; list-style-type: none;   
+}
+.toptitlemenu a{
+    padding: 20px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+.toptitlecontainercity{
+    display: flex;
+   justify-content: right; 
+   background-color: white;
+}
+.toptitlemenu a:hover{
+    background-color: blue;
+    color: yellow;
+}
+
